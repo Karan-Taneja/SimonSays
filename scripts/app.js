@@ -145,6 +145,7 @@ simon.addEventListener('click', e => {
                 state.directions = [];
                 state.playerInput = [];
                 state.rounds = 0;
+                rounds.innerText = state.rounds;
                 state.turn = 0;
                 soundX.play().catch(() => {
                     soundX.play();
